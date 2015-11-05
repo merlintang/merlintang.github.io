@@ -40,7 +40,7 @@
 		
         <p>I'm a final year PhD student at Computer Science Department of Purdue University, West Lafayette, Indiana.
 	   I am working with Professor <a href="https://www.cs.purdue.edu/homes/aref/">Walid G. Aref</a>  on database system. <br />
-		My research interest is database management system, similarity query processing, data indexing, big data analysis, data mining and machine learning. <br />
+		My research interest is database management system, similarity query processing, data indexing, big data computation, data mining and machine learning. <br />
 		Now, I am building a distributed in-memory spatial data processing system over Spark, more details can be 
 		found from our project webpage <a href="https://github.com/merlintang/SpatialSpark">SpatialRDD</a>.  
 		</p>
@@ -72,7 +72,7 @@
   <tbody>
     <tr> 
     <td width="30%">2015.5 - 2015.8 </td> 
-    <td width="70%">Research Intern <a href="http://www.research.ibm.com/labs/almaden/">IBM research at Almaden</a>, CA, USA</td> 
+    <td width="70%">Research Intern <a href="http://www.research.ibm.com/labs/almaden/">IBM research Almaden</a>, CA, USA</td> 
   </tr><tr> 
     <td width="30%">2012.5 - 2012.8 </td> 
     <td width="70%">Software Engineer Intern <a href="https://www.microsoft.com/en-us/">Microsoft </a>, Seattle, USA</td> 
@@ -103,14 +103,14 @@ in <i>18th International Conference on Extending Database Technology (EDBT) 2015
 <li>
 <b>The Similarity-aware Relational Intersect Database Operator&nbsp;</b> <a href="paper/sintersection.pdf">[pdf]</a> <br>
  Wadha J. Al Marri, Qutaibah Malluhi, Mourad Ouzzani, Mingjie Tang and Walid G. Aref<br>
-in <i>7th International Conference on Similarity Search and Applications&nbsp;</i>(<i>SISAP</i>)2014.&nbsp;<b style="color:rgb(255,0,0);line-height:21.3333320617676px">Best Paper Award.</b> 
-<br /> full version in <i>Information Systems 2015</i> (to appear)
+in <i>7th International Conference on Similarity Search and Applications (SISAP2014)<font color="#ff0000"><b>Best Paper Award</b></font><br/> 
+full version in <i>Information Systems 2015</i> (to appear)
 </li>
 </ul>
 
 <ul><li><b>Similarity Group-by Operators for Multi-dimensional Relational Data&nbsp;</b> <a href="paper/similarity-group-operators.pdf">[pdf]</a>  <br>
- Mingjie Tang, Ruby Y. Tahboub,&nbsp;Walid G. Aref, Mikhail Atallah,&nbsp;<span style="font-size:13.3333px;line-height:21.3333px">Qutaibah Malluhi, Mourad Ouzzani, Yasin. Siva&nbsp;</span>.<br>
-in <i>IEEE Transactions on Knowledge and Data Engineering(TKDE) 2015 &nbsp;</i></li>
+ Mingjie Tang, Ruby Y. Tahboub, Walid G. Aref, Mikhail Atallah, Qutaibah Malluhi, Mourad Ouzzani, Yasin. Siva&nbsp;<br>
+in <i>IEEE Transactions on Knowledge and Data Engineering(TKDE2015)</i></li>
 </ul>
 
 <ul><li>
@@ -120,7 +120,7 @@ Bird Flu Outbreak Prediction via Satellite Tracking
 <br>
 YuanChun Zhou, Mingjie Tang,Weike Pan,Jinyan Li, Weihang Wang, Jing Shao, Liang Wu, Jianhui Li, Qiang Yang, BaoPing Yan
 <br>
-in&nbsp;<i>IEEE Intelligent Systems(IS)(2013)</i>
+in&nbsp;<i>IEEE Intelligent Systems(IS2013)</i>
 </li></ul>
 
 <ul>
@@ -130,7 +130,7 @@ in&nbsp;<i>IEEE Intelligent Systems(IS)(2013)</i>
 <br>
 Mingjie Tang, YuanChun Zhou, Weihang Wang ,Peng Cui, Jinyan Li, Yuan- Sheng Hou, BaoPing Yan
 <br>
-in <i>Knowledge and Information Systems(KAIS) 2010</i></li>
+in <i>Knowledge and Information Systems(KAIS2010) </i></li>
 </ul>
 
 <ul>
