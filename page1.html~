@@ -26,6 +26,63 @@
         <div id="content">
         
 		<h3>Content</h3>
+
+<tr>
+<td><font color="green" size="3"><b>2016:</b></font></td>
+</tr>
+
+<tr>
+<td>
+<ul>
+<p>
+</p>
+<li>
+<b>
+LocationSpark: A Distributed In-Memory Data Management System for Big Spatial Data
+</b>
+<a href="http://github.com/merlintang/SpatialSpark">[code]</a>
+<br>
+Mingjie Tang, Yongyang Yu,  Walid G. Aref,  Qutaibah Malluhi, and Mourad Ouzzani
+<br>
+in <i>under review</i>
+</li>
+<p>
+
+</p>
+<p>
+</p>
+<li>
+<b>
+MatCatalyzer: Optimizing Query Pipelines of Matrix Operations in an In-memory Distributed Platform
+</b>
+<a href="http://github.com/yuyongyang800/SparkDistributedMatrix">[code]</a>
+<br>
+Yongyang Yu,  Mingjie Tang, Walid G. Aref,  Qutaibah Malluhi, and Mourad Ouzzani
+<br>
+in <i>under review</i>
+</li>
+<p>
+
+</p>
+
+<li>
+<b>
+Cruncher: Distributed In-Memory Processing for Location-Based Services
+</b>
+[Demo]
+<br>
+Ahmed S. Abdelhamid, Mingjie Tang,  Ahmed M. Aly, Ahmed R. Mahmood, Walid G. Aref,Saleh Basalamah
+<br>
+in <i>32nd IEEE International Conference on Data Engineering(ICDE'16)</i>
+</li>
+
+<p>
+
+</p></ul>
+</td>
+</tr>
+
+
 <tr>
 <td><font color="green" size="3"><b>2015:</b></font></td>
 </tr>
@@ -64,6 +121,7 @@ in <i>IEEE International Conference on Cloud Engineering (IC2E) 2015</i></li>
 </p></ul>
 </td>
 </tr>
+
 <tr>
 <td><font color="green" size="3"><b>2014:</b></font></td>
 </tr>
