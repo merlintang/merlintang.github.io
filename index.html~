@@ -41,8 +41,11 @@
         <p>I'm a final year PhD student at Computer Science Department of Purdue University, West Lafayette, Indiana.
 	   I am working with Professor <a href="https://www.cs.purdue.edu/homes/aref/">Walid G. Aref</a>  on database system. <br />
 		My research interest is database management system, similarity query processing, data indexing, big data computation, data mining and machine learning. <br />
-		Now, I am building a distributed in-memory spatial data processing system over Spark, more details can be found from our project webpage <a href="https://github.com/merlintang/SpatialSpark">LocationSpark</a>.  <br />
-I am working with colleague Yongyang to build a distributed in-memory matrix computation over Spark. First version is avaliable download from project website<a href="https://github.com/yuyongyang800/SparkDistributedMatrix">MatCatalyzer</a>.  
+<p></p>
+		Now, I am building a distributed in-memory spatial data processing system over Spark, more details can be found from our project webpage <a href="https://github.com/merlintang/SpatialSpark">LocationSpark</a>.  
+<br />
+<p></p>
+I am working with colleague Yongyang to build a distributed in-memory matrix computation over Spark. First version is avaliable download from project website <a href="https://github.com/yuyongyang800/SparkDistributedMatrix">MatCatalyzer</a>.  
 		</p>
 		
 		<h3>Education</h3>
