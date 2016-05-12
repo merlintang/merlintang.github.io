@@ -46,7 +46,7 @@
 		Now, I am building a distributed in-memory spatial data processing system over Spark, more details can be found from our project webpage <a href="https://github.com/merlintang/SpatialSpark">LocationSpark</a>.  
 <br />
 <p></p>
-I am working with colleague Yongyang to build a distributed in-memory matrix computation over Spark. First version is avaliable download from project website <a href="https://github.com/yuyongyang800/SparkDistributedMatrix">MatCatalyzer</a>.  
+I am working with my colleague Yongyang to build a distributed in-memory matrix computation over Spark. First version is avaliable download from project website <a href="https://github.com/yuyongyang800/SparkDistributedMatrix">MatCatalyzer</a>.  
 		</p>
 		
 		<h3>Education</h3>
@@ -88,6 +88,19 @@ I am working with colleague Yongyang to build a distributed in-memory matrix com
 		<a href="http://dblp.uni-trier.de/pers/hd/t/Tang:MingJie">DBLP,</a>
                 <a href="page1.html">Full list</a>
 		<p>
+
+<ul>
+<li>
+<b>
+LocationSpark: A Distributed In-Memory Data Management System for Big Spatial Data (demo)
+</b>
+<a href="http://github.com/merlintang/SpatialSpark">[code]</a>
+<br>
+Mingjie Tang, Yongyang Yu,  Walid G. Aref,  Qutaibah Malluhi, and Mourad Ouzzani
+<br>
+in <i>42th International Conference on Very Large Data Bases (VLDB) 2016</i>
+</li>
+</ul>
 
 <ul>
 <li>
