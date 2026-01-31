@@ -289,6 +289,17 @@ body {
   width: 28%;
 }
 
+/* Education & Industry Experience tables - compact */
+.edu-table {
+  font-size: 0.85rem !important;
+  margin: 6px 0 12px !important;
+}
+
+.edu-table td {
+  padding: 5px 10px !important;
+  line-height: 1.4;
+}
+
 /* Publication list styling */
 #content ul {
   list-style: none;
