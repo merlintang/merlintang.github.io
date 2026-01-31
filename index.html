@@ -1,10 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Mingjie Tang's Homepage</title>
 <link href="defaultstyles.css" rel="stylesheet" media="screen" />
-
+<script src="pub-authors.js" defer></script>
 </head>
 
 <body>
@@ -17,7 +18,8 @@
     </div>
     <div id="nav">
     	<ul>
-       <li><a href="index.html">Home</a></li>
+       <li><a href="index.html" class="current">Home</a></li>
+       <li><a href="page1.html#pub">Publication</a></li>
         </ul>
     </div>
     <div id="page">
@@ -25,29 +27,49 @@
         <div id="content">
         
         <div id="sidebar">
-        		<img src="mingjie_photo.JPG" title="faculty photo" width="200" height="220" id="fac_photo"/>
-                                <table>
-        <tbody>
-    <tr > <td>tangrock@gmail.com </td> </tr>
-    <tr > <td> <a href="https://mingjietang.wordpress.com/">other side of Mingjie</a> </td> </tr>
-   </tbody>
-  </table>
+        		<img src="mingjie_photo.JPG" alt="Mingjie Tang" title="Mingjie Tang" width="200" height="220" id="fac_photo"/>
+        		<table>
+        			<tbody>
+        				<tr><td>tangrock@gmail.com</td></tr>
+        			</tbody>
+        		</table>
         	</div>
         
 		<h3>About Mingjie</h3>
 
         <p>
-		Mingjie Tang is currently working on LLM systems and algorithms. 
-		Previously, he was the tech lead at Ant Group, and a member of the technical staff at Hortonworks/Cloudera 
-		He has broad research interests in RDBMS, distributed machine learning systems, big data computation engines, and distributed deep learning systems. 
+		Mingjie Tang works on LLM systems and algorithms. He previously served as tech lead at Ant Group and as a member of the technical staff at Hortonworks/Cloudera. His research interests include database systems, distributed machine learning, big data computation, and distributed deep learning.
 	</p>
          
 	 <p>
-	He earned his PhD degree from the Computer Science Department at Purdue University, West Lafayette, Indiana. 
-		 His advisor was Professor <a href="https://www.cs.purdue.edu/homes/aref/">Walid G. Aref</a>. 
-		 During his doctoral studies, he focused on distributed systems for spatial computation, machine learning, and artificial intelligence.
+	He received his PhD in Computer Science from Purdue University, West Lafayette, Indiana, under the supervision of Professor <a href="https://www.cs.purdue.edu/homes/aref/">Walid G. Aref</a>. His doctoral research focused on distributed systems for spatial computation, machine learning, and artificial intelligence.
 	 </p>
 		
+		<h3>Industry Experience</h3>
+  <table>
+  <tbody>
+<tr>
+    <td width="30%">2025.11 - present</td>
+    <td width="70%">Researcher, Consultant, <a href="https://iquestlab.github.io/">iQuest Research Lab</a></td>
+  </tr>
+<tr>
+    <td width="30%">2018.10 - 2022.10 </td>
+    <td width="70%">AI Engineer <a>Ant Group </a>, CA, USA</td>
+  </tr>
+ <tr>
+    <td width="30%">2016.9 - 2018.10 </td>
+    <td width="70%">Member of tech staff <a>Hortonworks</a>, CA, USA</td>
+  </tr>
+    <tr> 
+    <td width="30%">2015.5 - 2015.8 </td> 
+    <td width="70%">Research Intern <a href="http://www.research.ibm.com/labs/almaden/">IBM research Almaden</a>, CA, USA</td> 
+  </tr>
+   <tr> 
+    <td width="30%">2012.5 - 2012.8 </td> 
+    <td width="70%">Software Engineer Intern <a href="https://www.microsoft.com/en-us/">Microsoft </a>, Seattle, USA</td> 
+  </tr></tbody>
+  </table>
+  
 		<h3>Education</h3>
 		<table> 
 	<tbody>
@@ -75,34 +97,27 @@
     <td width="70%">Bachelor of Science, Department of Computer Science<br/> 
         <a href="http://www.scu.edu.cn/en/">Sichuan University</a>, Chengdu, China</td> 
   </tr>
-  </tbody></table>
-  
-		<h3>Industry Experience</h3>
-  <table>
-  <tbody>
-<tr>
-    <td width="30%">2018.10 - 2022.10 </td>
-    <td width="70%">AI Engineer <a>Ant Group </a>, CA, USA</td>
-  </tr>
- <tr>
-    <td width="30%">2016.9 - 2018.10 </td>
-    <td width="70%">Member of tech staff <a>Hortonworks</a>, CA, USA</td>
-  </tr>
-    <tr> 
-    <td width="30%">2015.5 - 2015.8 </td> 
-    <td width="70%">Research Intern <a href="http://www.research.ibm.com/labs/almaden/">IBM research Almaden</a>, CA, USA</td> 
-  </tr>
-   <tr> 
-    <td width="30%">2012.5 - 2012.8 </td> 
-    <td width="70%">Software Engineer Intern <a href="https://www.microsoft.com/en-us/">Microsoft </a>, Seattle, USA</td> 
-  </tr></tbody>
-  </table> 
+  </tbody></table> 
 		
-		<h3>Publication (Selected)</h3> 
-		<p><a href="https://scholar.google.com/citations?user=tVgxEuwAAAAJ&hl=en">Google Scholar,</a> 
-		<a href="http://dblp.uni-trier.de/pers/hd/t/Tang:MingJie">DBLP,</a>
-		<p>
+		<div id="pub">
+		<h3>Publication (Recent)</h3> 
+		<p><a href="https://scholar.google.com/citations?user=tVgxEuwAAAAJ&hl=en">Google Scholar</a>, 
+		<a href="http://dblp.uni-trier.de/pers/hd/t/Tang:MingJie">DBLP</a> —
+		<a href="page1.html#pub">View all publications →</a>
+		</p>
 
+		<h4 class="pub-year">2026</h4>
+<ul>
+<li>
+<b>
+  DLRover-LM: LLM Pre-Training Framework with Thousands of Accelerators in AntGroup
+</b>
+<br>
+Ziling Huang, Zhengmao Ye, Qingsong Cai, Zelong Huang, Bo Sang, Haitao Zhang, Jian Sha, Tingfeng Lan, Hui Lu, Yuanchun Zhou, <strong>Mingjie Tang</strong>
+<br>
+<i>Proceedings of the IEEE International Conference on Data Engineering (ICDE '26), May 2026.</i>
+</li>
+</ul>
 
 <ul>
 <li>
@@ -110,25 +125,25 @@
   Are Your LLM-based Text-to-SQL Models Secure? Exploring SQL Injection via Backdoor Attacks
 </b>
 <br>
-Meiyu Lin, Haichuan Zhang, Jiale Lao, and Renyuan Li, Yuanchun Zhou, Carl Yang, Yang Cao, Mingjie Tang
+Meiyu Lin, Haichuan Zhang, Jiale Lao, and Renyuan Li, Yuanchun Zhou, Carl Yang, Yang Cao, <strong>Mingjie Tang</strong>
 <br>
-in <i> Proceedings of the ACM SIGMOD International Conference on Management of Data (SIGMOD ’26), Jun 2026. </i>
+<i> Proceedings of the ACM SIGMOD International Conference on Management of Data (SIGMOD ’26), Jun 2026. </i>
 </li>
 </ul>
 
+		<h4 class="pub-year">2025</h4>
 <ul>
 <li>
 <b>
   Tuning Less, Prompting More: A Cost-Effective and Flexible Training and Inference Pipeline for Natural Language Transformation
 </b>
 <br>
-Shuyun Yang, Zhengmao Ye, Yan Zhang, and Lei Duan, Mingjie Tang
+Shuyun Yang, Zhengmao Ye, Yan Zhang, and Lei Duan, <strong>Mingjie Tang</strong>
 <br>
-in <i> Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP ’25), Nov 2025. </i>
+<i> Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP ’25), Nov 2025. </i>
 </li>
 </ul>
-			
-			
+
 <ul>
 <li>
 <b>
@@ -139,8 +154,7 @@ Mehdi Fatemi, Banafsheh Rafiee, <strong>Mingjie Tang</strong>, Kartik Talamadupu
 <br>
 </li>
 </ul>
-		
-			
+
 <ul>
 <li>
 <b>
@@ -149,11 +163,11 @@ Mehdi Fatemi, Banafsheh Rafiee, <strong>Mingjie Tang</strong>, Kartik Talamadupu
 <br>
  Zhengmao Ye, Dengchun Li, Zetao Hu, Tingfen Lan, Sha Jian, Sicong Zheng, Lei Duan, Jie Zuo, Hui Lu, Yuanchun Zhou, <strong>Mingjie Tang</strong>
 <br>
-in <i> Proceedings of Very Large Data Bases Conference (VLDB), 2025. </i>
+<i> Proceedings of Very Large Data Bases Conference (VLDB), 2025. </i>
 </li>
 </ul>
-			
-			
+
+		<h4 class="pub-year">2024</h4>
 <ul>
 <li>
 <b>
@@ -162,7 +176,7 @@ in <i> Proceedings of Very Large Data Bases Conference (VLDB), 2025. </i>
 <br>
   Qinlong Wang,  Tingfeng Lan, Yinghao Tang, Bo Sang, Ziling Huang, Yihen Du, Haitao Zhang, Shajian, Ke Zhang,  Hui Lu, Yuanchun Zhou, <strong>Mingjie Tang</strong>
 <br>
- in <i> Proceedings of Very Large Data Bases Conference (VLDB), 2024. </i>
+ <i> Proceedings of Very Large Data Bases Conference (VLDB), 2024. </i>
 </li>
 </ul>
 			
@@ -174,7 +188,7 @@ BadPart: Unified Black-box Adversarial Patch Attacks against Pixel-wise Regressi
 <br>
 Zhiyuan Cheng, Zhaoyi Liu, Tengda Guo, Shiwei Feng, Dongfang Liu,<strong>Mingjie Tang</strong>, Xiangyu Zhang
 <br>
- in <i> International Conference on Machine Learning  (ICML), 2024. </i>
+ <i> International Conference on Machine Learning  (ICML), 2024. </i>
 </li>
 </ul>
 
@@ -188,7 +202,7 @@ Zhiyuan Cheng, Zhaoyi Liu, Tengda Guo, Shiwei Feng, Dongfang Liu,<strong>Mingjie
 <br>
 Jiale Lao, Yibo Wang, Yufei Li, Jianping Wang, Yunjia Zhang, Zhiyuan Cheng, Wanghu Chen, Yuanchun Zhou, <strong>Mingjie Tang</strong>, Jianguo Wang
 <br>
-Demo in <i> Proceedings of ACM Conference on Management of Data (SIGMOD), 2024. </i>
+Demo <i> Proceedings of ACM Conference on Management of Data (SIGMOD), 2024. </i>
 </li>
 </ul>
 
@@ -209,11 +223,11 @@ Couler: Unified Machine Learning Workflow Optimization in Cloud
 <br>
  Xiaoda Wang, Yuan Tang, Tengda Guo, Bo Sang，Jingji Wu, Jian Sha， Ke Zhang, Jiang Qian, <strong>Mingjie Tang</strong>
 <br>
-in <i> 40th IEEE International Conference on Data Engineering (ICDE) 2024 </i>
+<i> 40th IEEE International Conference on Data Engineering (ICDE) 2024 </i>
 </li>
 </ul>
-		
-			
+
+		<h4 class="pub-year">2023</h4>
 <ul>
 <li>
 <b>
@@ -222,285 +236,10 @@ Cougar: A General Framework for Jobs Optimization In Cloud
 <br>
 Bo Sang, Shuwei Gu, Xiaojun Zhan, <strong>Mingjie Tang</strong>, Jian Liu, Xuan Chen, Jie Tan, Haoyuan Ge, Ke Zhang, Ruoyi Ruan, Wei Yan
 <br>
-in <i> 39th IEEE International Conference on Data Engineering (ICDE) 2023 </i>
+<i> 39th IEEE International Conference on Data Engineering (ICDE) 2023 </i>
 </li>
 </ul>
-		
-			
-<ul>
-<li>
-<b>
-STULL: Unbiased Online Sampling for Visual Exploration of Large Spatiotemporal Data
-</b>
-<br>
-Guizhen Wang, Jingjing Guo, <strong>Mingjie Tang</strong>, José Florencio de Queiroz Neto, Calvin Yau, Anas Daghistani, Morteza Karimzadeh, Walid G. Aref, and David S. Ebert.
-<br>
-in <i> IEEE Conference on Visual Analytics Science and Technology (VAST 2020) </i>
-</li>
-</ul>
-
-
-<ul>
-<li>
-<b>
-LocationSpark: In-memory Distributed Spatial Query Processing and Optimization
-</b>
-<br>
-Mingjie Tang, Yongyang Yu,  Walid G. Aref,  Qutaibah Malluhi, and Mourad Ouzzani
-<br>
-in <i>Frontiers in Big Data, section Data Mining and Management 2020</i>
-</li>
-</ul>
-			
-			
-<ul>
-<li>
-<b>
-A Natural-language-based Visual Query Approach of Uncertain Human Trajectories
-</b>
-<br>
-Zhaosong Huang, Ye Zhao, Wei Chen, Shengjie Gao , Kejie Yu, Weixia Xu, Mingjie Tang, Minfeng Zhu, Mingliang Xu
-<br>
-in <i> IEEE Transactions on Visualization and Computer Graphics (TVCG 2019) </i>
-</li>
-</ul>
-
-
-
-<ul>
-<li>
-<b>
-SAC: A System for Big Data Lineage Tracking
-</b>
-<a href="https://github.com/hortonworks-spark/spark-atlas-connector">[code]</a>
-<br>
-Mingjie Tang, Saisai Shao, Weiqing Yang, Yanbo Liang, Yongyang Yu, Bikas Saha, Dongjoon Hyun
-<br>
-in <i> 35th IEEE International Conference on Data Engineering (ICDE) 2019 </i>
-</li>
-</ul>
-
-<ul>
-<li>
-<b>
-Efficient Parallel Skyline Query Processing for High-Dimensional Data
-</b>
-<br>
-Mingjie Tang,Yongyang Yu, Walid G. Aref, Qutaibah Malluhi, and Mourad Ouzzani
-<br>
-in <i> 35th IEEE International Conference on Data Engineering (ICDE) 2019 </i>
-</li>
-</ul>
-
-
-<ul>
-<li>
-<b>
-Adaptive Processing of Spatial-Keyword Data Over a Distributed Streaming Cluster
-</b>
-<br>
-Ahmed R. Mahmood, Anas Daghistani, Ahmed M. Aly, Walid G. Aref, Mingjie Tang, Saleh M. Basalamah, Sunil Prabhakar
-<br>
-in <i> 26th ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (SIGSPATIAL) 2018 </i>
-</li>
-</ul>
-
-
-<ul>
-<li>
-<b>
-Optimizing Generalized Linear Models with Billions of Variables
-</b>
-<a href="https://github.com/yanboliang/spark-vlbfgs">[code]</a>
-<br>
-Yanbo Liang, Yongyang Yu, Mingjie Tang,  Weiqing Yang, Weichen Xu, Chaozhuo Li and Ruifeng Zheng
-<br>
-in <i> ACM International Conference on Information and Knowledge Management(CIKM) 2018 </i>
-</li>
-</ul>
-
-
-<ul>
-<li>
-<b>
-Efficient Parallel Skyline Query Processing for High-Dimensional Data
-</b>
-<br>
-Mingjie Tang,Yongyang Yu, Walid G. Aref, Qutaibah Malluhi, and Mourad Ouzzani 
-<br>
-in <i> IEEE Transactions on Knowledge and Data Engineering(TKDE) 2018 </i>
-</li>
-</ul>
-
-
-
-<ul>
-<li>
-<b>
-SHC: Distributed Query Processing for Non-Relational Data Store
-</b>
-<a href="https://github.com/hortonworks-spark/shc/">[code]</a>
-<br>
-Weiqing Yang*, Mingjie Tang*, Yongyang Yu, Yanbo Liang, Bikas Saha
-<br>
-in <i> 34th IEEE International Conference on Data Engineering (ICDE)  2018 </i>
-<br> * both are the leading authors </br>
-</li>
-</ul>
-
-
-
-
-<ul>
-<li>
-<b>
-COACT: a query interface language for collaborative databases
-</b>
-<a href="https://link.springer.com/article/10.1007/s10619-017-7213-1?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst#citeas">[link]</a>
-<br>
-K Mershad, QM Malluhi, M Ouzzani, Mingjie Tang, M Gribskov, WG Aref, Deo Prakash
-<br>
-in <i>Distributed and Parallel Databases 2017 </i>
-</li>
-</ul>
-
-
-<ul>
-<li>
-<b>
-AUDIT: approving and tracking updates with dependencies in collaborative databases
-</b>
-<a href="https://link.springer.com/article/10.1007/s10619-017-7208-y">[link]</a>
-<br>
-K Mershad, QM Malluhi, M Ouzzani, Mingjie Tang, M Gribskov, WG Aref
-<br>
-in <i>Distributed and Parallel Databases 2017 </i>
-</li>
-</ul>
-
-
-<ul>
-<li>
-<b>
-In-memory Distributed Matrix Computation Processing and Optimization
-</b>
-<a href="https://github.com/yuyongyang800/SparkDistributedMatrix">[code]</a>
-<br>
-Yongyang Yu, Mingjie Tang, Walid Aref, Qutaibah Malluhi, Mostafa Abbas and Mourad Ouzzani
-<br>
-in <i> 33rd IEEE International Conference on Data Engineering (ICDE) 2017</i>
-</li>
-</ul>
-
-
-<ul>
-<li>
-<b>
-LocationSpark: A Distributed In-Memory Data Management System for Big Spatial Data
-</b>
-<a href="http://github.com/merlintang/SpatialSpark">[code]</a>
-<br>
-Mingjie Tang, Yongyang Yu,  Walid G. Aref,  Qutaibah Malluhi, and Mourad Ouzzani
-<br>
-in <i>42th International Conference on Very Large Data Bases (VLDB) 2016</i>
-</li>
-</ul>
-            <ul>
-                <li>
-                    <b>
-                        Atlas: On the Expression of Spatial-Keyword Group Queries Using Extended Relational Constructs (Systems Paper)
-                    </b>
-                    <br>
-                    Walid Aref, Ahmed Mahmood, Ahmed Aly, Mingjie Tang
-                    <br>
-                    in <i>24th International Conference on Advances in Geographic Information Systems (SIGSPATIAL) 2016</i>
-                </li>
-            </ul>
-
-            <ul>
-            <li>
-                <b>
-                    Cruncher: Distributed In-Memory Processing for Location-Based Services
-                </b>
-                <br>
-                Ahmed S. Abdelhamid, Mingjie Tang,  Ahmed M. Aly, Ahmed R. Mahmood, Walid G. Aref,Saleh Basalamah
-                <br>
-                in <i>32nd IEEE International Conference on Data Engineering(ICDE)2016</i>
-            </li>
-            </ul>
-
-
-<ul>
-<li>
-<b>
-Efficient Processing of Hamming-Distance-Based Similarity-Search Queries Over MapReduce  
-</b>
-<a href="paper/paper-263.pdf">[pdf]</a> <a href="paper/EDBT-Hamming-V2.pdf">[ppt]</a> [code]
-<br>
-Mingjie Tang, Yongyang Yu,  Walid G. Aref,  Qutaibah Malluhi, and Mourad Ouzzani
-<br>
-in <i>18th International Conference on Extending Database Technology (EDBT) 2015</i>
-</li>
-</ul>
-
-
-<ul>
-<li>
-<b>The Similarity-aware Relational Intersect Database Operator&nbsp;</b> <a href="paper/sintersection.pdf">[pdf]</a> <br>
- Wadha J. Al Marri, Qutaibah Malluhi, Mourad Ouzzani, Mingjie Tang and Walid G. Aref<br>
-in <i>7th International Conference on Similarity Search and Applications (SISAP) 2014</i><font color="#ff0000"><b> Best Paper Award</b></font><br/> 
-full journal version <i>Information Systems 2015</i> <a href="http://www.sciencedirect.com/science/article/pii/S030643791500188X">[paper]</a>
-</li>
-</ul>
-
-<ul><li><b>Similarity Group-by Operators for Multi-dimensional Relational Data&nbsp;</b> <a href="paper/similarity-group-operators.pdf">[pdf]</a>  <a href="https://github.com/merlintang/sgb">[code]</a> <br>
- Mingjie Tang, Ruby Y. Tahboub, Walid G. Aref, Mikhail Atallah, Qutaibah Malluhi, Mourad Ouzzani, Yasin. Siva&nbsp;<br>
-in <i>IEEE Transactions on Knowledge and Data Engineering(TKDE) 2015</i></li>
-</ul>
-
-<ul><li>
-<b>
-Bird Flu Outbreak Prediction via Satellite Tracking
-</b><a href="paper/IS2013.pdf">[pdf]</a> 
-<br>
-YuanChun Zhou, Mingjie Tang,Weike Pan,Jinyan Li, Weihang Wang, Jing Shao, Liang Wu, Jianhui Li, Qiang Yang, BaoPing Yan
-<br>
-in&nbsp;<i>IEEE Intelligent Systems(IS) 2013</i>
-</li></ul>
-
-<ul>
-<li>
-<b>Exploring the Wild bird's Role as Potential Vector for H5N1 transmission by Clustering and Association Analysis, </b>
-<a href="paper/KAIS2010.pdf">[pdf]</a> 
-<br>
-Mingjie Tang, YuanChun Zhou, Weihang Wang ,Peng Cui, Jinyan Li, Yuan- Sheng Hou, BaoPing Yan
-<br>
-in <i>Knowledge and Information Systems(KAIS) 2010</i></li>
-</ul>
-
-<ul>
-<li>
-<b>Birds Bring Flues? Mining Frequent and High Weighted Cliques from Birds Migration Networks</b>
- <a href="paper/DASFAA2010.pdf">[pdf]</a>                      
-<br>                                                                      
-Mingjie Tang, Weihang Wang ,Yexi Jiang, YuanChun Zhou, Jinyan Li, Peng Cui,Ying Liu, BaoPing Yan                  
-<br>
-in <i>15th the Database Systems for Advanced Applications (DASFAA) 2010 </i>                                           
-</li>
-</ul>
-
-<ul>
-<li>
-<b>
-Discovery of Migration Habitats and Routes of Wild Bird Species by Clustering and Association Analysis
-</b>
- <a href="paper/ADMA2009.pdf">[pdf]</a>  
-<br>
-Mingjie Tang, Weihang Wang , YuanChun Zhou, Yexi Jiang, Jinyan Li, Peng Cui, Yuan- Sheng Hou, BaoPing Yan,
-<br>
-in <i>5th International Conference on Advanced Data Mining and Applications (ADMA) 2009</i> <font color="#ff0000"><b>Best Application Paper Award.                                                                  
-</b></font></li>
-</ul>
+		</div>
 		
         </div>
 	</div>
