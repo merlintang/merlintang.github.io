@@ -390,11 +390,18 @@ body {
   font-size: 0.85rem;
   text-align: center;
   border-top: 1px solid var(--color-border);
+  position: relative;
 }
 
 #footer img {
   display: block;
   margin: 0 auto 8px;
+}
+
+#footer-ai {
+  font-size: 0.7rem;
+  opacity: 0.6;
+  margin-left: 2px;
 }
 
 .right {
