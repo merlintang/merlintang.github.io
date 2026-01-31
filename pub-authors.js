@@ -32,15 +32,15 @@
         var toggle = document.createElement('button');
         toggle.type = 'button';
         toggle.className = 'pub-authors-toggle';
-        toggle.textContent = ' 展开';
-        toggle.setAttribute('aria-label', '展开作者列表');
+        toggle.textContent = ' Expand';
+        toggle.setAttribute('aria-label', 'Expand author list');
         wrap.appendChild(toggle);
 
         toggle.addEventListener('click', function(e) {
           e.stopPropagation();
           wrap.classList.toggle('collapsed');
           wrap.classList.toggle('expanded');
-          toggle.textContent = wrap.classList.contains('expanded') ? ' 收起' : ' 展开';
+          toggle.textContent = wrap.classList.contains('expanded') ? ' Collapse' : ' Expand';
         });
       } else {
         wrap.classList.remove('collapsed');
