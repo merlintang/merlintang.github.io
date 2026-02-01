@@ -251,6 +251,109 @@ body {
   color: #fff;
 }
 
+/* Publication summary modal (click title to show intro) */
+.pub-summary-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.pub-summary-overlay.pub-summary-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.pub-summary-box {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  max-width: 480px;
+  width: 100%;
+  padding: 24px 28px;
+  max-height: 85vh;
+  overflow: auto;
+  transform: scale(0.96);
+  transition: transform 0.2s ease;
+}
+
+.pub-summary-overlay.pub-summary-visible .pub-summary-box {
+  transform: scale(1);
+}
+
+.pub-summary-title {
+  margin: 0 0 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  line-height: 1.4;
+}
+
+.pub-summary-text {
+  margin: 0 0 20px;
+  color: var(--color-text);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.pub-summary-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.pub-summary-btn {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-family: inherit;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.pub-summary-btn-primary {
+  display: inline-block;
+  background: var(--color-primary);
+  color: #fff !important;
+  border: none;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 10px 20px;
+}
+
+.pub-summary-btn-primary:hover {
+  background: var(--color-primary-light);
+  color: #fff !important;
+}
+
+.pub-summary-btn-close {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+}
+
+.pub-summary-btn-close:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+#pub ul li[data-pub-summary] > b,
+#pub ul li[data-pub-summary] > b a {
+  cursor: pointer;
+}
+
+#pub ul li[data-pub-summary] > b:hover,
+#pub ul li[data-pub-summary] > b a:hover {
+  text-decoration: underline;
+}
+
 /* Publication section - anchor & highlight (like yibozhu.com/#pub) */
 #pub {
   scroll-margin-top: 1em;
