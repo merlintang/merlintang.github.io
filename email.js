@@ -14,7 +14,7 @@
   c.height = 22;
   ctx = c.getContext('2d');
   ctx.font = '14px "Source Sans 3", -apple-system, BlinkMacSystemFont, sans-serif';
-  ctx.fillStyle = '#2d3748';
+  ctx.fillStyle = '#ffffff';
   ctx.fillText(s, 2, 16);
 
   var img = document.createElement('img');
