@@ -152,6 +152,11 @@ img {
   flex-shrink: 0;
 }
 
+/* Compact hero for subpages */
+.hero-compact {
+  padding: 36px 24px 30px;
+}
+
 .hero-email {
   cursor: default;
 }
@@ -588,28 +593,34 @@ font[color="#ff0000"] b {
 }
 
 /* ========== ENTRANCE ANIMATIONS ========== */
-.fade-in {
-  opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 0.6s ease forwards;
-}
-
-.fade-in:nth-child(1) { animation-delay: 0.1s; }
-.fade-in:nth-child(2) { animation-delay: 0.2s; }
-.fade-in:nth-child(3) { animation-delay: 0.3s; }
-.fade-in:nth-child(4) { animation-delay: 0.35s; }
-
 @keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
 
+.fade-in {
+  animation: fadeInUp 0.6s ease both;
+}
+
+.fade-in:nth-child(2) { animation-delay: 0.1s; }
+.fade-in:nth-child(3) { animation-delay: 0.2s; }
+.fade-in:nth-child(4) { animation-delay: 0.25s; }
+.fade-in:nth-child(5) { animation-delay: 0.3s; }
+
 /* ========== RESPONSIVE - TABLET ========== */
 @media (max-width: 768px) {
   .hero {
     padding: 44px 20px 36px;
+  }
+
+  .hero-compact {
+    padding: 28px 20px 24px;
   }
 
   .hero-inner {
@@ -687,6 +698,10 @@ font[color="#ff0000"] b {
 @media (max-width: 480px) {
   .hero {
     padding: 36px 16px 28px;
+  }
+
+  .hero-compact {
+    padding: 24px 16px 20px;
   }
 
   .hero-photo {
